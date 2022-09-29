@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <title>Dimension by HTML5 UP</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="./projects.css" />
+</head>
+
+<body>
+  <div class="head-banner"></div>
+
+  <div class="top-right-icon">
+    <img src="assets/Icon ordi formules.png" alt="">
+  </div>
+  <div class="navBar">
+    <div class="homepage">
+      <div class="name">
+        Jérémie Klinger
+      </div>
+      <div class="page-name">
+        Coding Projects
+      </div>
+    </div>
+  </div>
+  <div class="projectPage">
+    <div class="text-container">
+      <div class="general-description">
+        Whether it be during my spare time or for work specific purposes, I do enjoy programming a lot. I don't think I
+        have any specific knowledge of a particular programming language but rather love experimenting with various
+        languages. Recently, I have devoted some time to learning bits and pieces of the Rust logic and enjoy it quite a
+        lot! Oh, by the way, my favorite editor is Neovim. For a general look at my Github, <a
+          href="https://github.com/zweinalbereicht">head over here!</a>
+      </div>
+      <div class="project-list">
+
+        <!-- Random walk item -->
+        <div class="project-item">
+          <div class='item'>
+            <div class="item-lhs">
+              <div class="item-title">
+                Random Walk Simulation
+              </div>
+            </div>
+            <div class="item-icons">
+              <img src="assets/c-.png">
+              <img src="assets/python.png">
+            </div>
+            <!-- <div class="item-date"> -->
+            <!--   2018 -->
+            <!-- </div> -->
+          </div>
+          <div class='item-separator'> </div>
+          <div class='item-description'>
+            As my PhD work essentially revolves around estimation of random observables, I built a python library to
+            quickly and efficiently perform Monte Carlo simulations of a variety of classical random walks. While the
+            code can be called from any python interpreter, the simulation logic is coded in C++ and binded using
+            pybind11. Exemples of random walks include Jump processes, d-dimensionnal lattice walks, random walks on
+            arbitrary graphs, and much more! As my interests evolve, I continuously add new features to this library.
+            <a href="https://github.com/zweinalbereicht/random-walk" class="github-link"
+              style="text-decoration:none">Please visit the Github Page.</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Surface mediated diffusion item -->
+      <div class="project-item">
+        <div class='item'>
+          <div class="item-lhs">
+            <div class="item-title">
+              Surface Mediated Diffusion Simulation
+            </div>
+          </div>
+          <div class="item-icons">
+            <img src="assets/34-348422_community-spotlight-rust-programming-language.png">
+            <img src="assets/python.png">
+          </div>
+          <!-- <div class="item-date"> -->
+          <!--   2018 -->
+          <!-- </div> -->
+        </div>
+        <div class='item-separator'> </div>
+        <div class='item-description'>
+          Random behavior is a common feature in a variety of biological systems and brownian motion has been widely
+          adopted as a goto model for many of these. This python library focuses on step-by-step and event-driven
+          simulation of 2D and 3D <a href="./" class="article-reference">surface mediated simulation </a> which
+          describes particles having a peculiar affinity for boundaries of domains. The library is usable from any
+          python interpreter, but the logic is coded in Rust, with mathurin used as a binder. <a
+            href="https://github.com/zweinalbereicht/smd-3d" class="github_link" style="text-decoration:none">Please
+            visit the Github Page.</a>
+        </div>
+      </div>
+
+      <!-- Arxiv Sorter -->
+      <div class="project-item">
+        <div class='item'>
+          <div class="item-lhs">
+            <div class="item-title">
+              ArXiv Sorter
+            </div>
+          </div>
+          <div class="item-icons">
+            <img src="assets/python.png">
+          </div>
+          <!-- <div class="item-date"> -->
+          <!--   2022 -->
+          <!-- </div> -->
+        </div>
+        <div class='item-separator'> </div>
+        <div class='item-description'>
+          ArXiv's automatic emails keep us up to date for sure but I decided to implement a small keyword-based sorter
+          to reduce the amount of daily information. This tool uses the public ArXiv API and Sendgrid to automatically
+          send emails.
+          <a href="https://github.com/zweinalbereicht/arxiv_sorter" class="github_link"
+            style="text-decoration:none">Please visit the Github Page.</a>
+        </div>
+      </div>
+
+      <!-- Neovim configuration -->
+      <div class="project-item">
+        <div class='item'>
+          <div class="item-lhs">
+            <div class="item-title">
+              Neovim config
+            </div>
+          </div>
+          <div class="item-icons">
+            <img src="assets/Lua-Logo.svg">
+            <img src="assets/Neovim-mark.svg">
+          </div>
+          <!-- <div class="item-date"> -->
+          <!--   2020 -->
+          <!-- </div> -->
+        </div>
+        <div class='item-separator'> </div>
+        <div class='item-description'>
+          No one would deny that VsCode has become a brilliant IDE, packed with extensive plugins which basically take
+          care of any troubles one might have while coding.. My take on this is simple : NeoVim is FUN so I use it. End
+          of the discussion. Take a look at my config if you're wondering what I'm looking at while I write these lines!
+          <a href="https://github.com/zweinalbereicht/nvim" class="github_link" style="text-decoration:none">Please
+            visit the Github Page.</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer><a href="./"><img src="assets/page-daccueil.png" alt=""></a></footer>
+</body>
+
+</html>
