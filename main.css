@@ -132,7 +132,7 @@ body {
     background-image: url('./assets/maxim-berg-RP1ny6ItgAM-unsplash.jpg');
     background-size: 1920px 1248px;
     background-position:0% 0%;
-    /* overflow:hidden; */
+    overflow:scroll;
     font-family: "Barlow"
 }
 .navBar {
