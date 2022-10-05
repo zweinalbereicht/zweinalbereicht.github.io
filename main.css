@@ -123,3 +123,127 @@ footer img:hover {
   max-height:105%;
 }
 
+/* making the thing for mobile */
+@media only screen and (max-width: 600px){
+
+body {
+    height:100%;
+    margin:0px;
+    background-image: url('./assets/maxim-berg-RP1ny6ItgAM-unsplash.jpg');
+    background-size: 1920px 1248px;
+    background-position:0% 0%;
+    /* overflow:hidden; */
+    font-family: "Barlow"
+}
+.navBar {
+    background-color: rgba(45, 46, 48,0.3);
+    /* background-color: rgba(100, 0, 0,0.3); */
+    height: 5em;
+    /* height: 100em; */
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1em;
+    margin-bottom:1em;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.navBar .homepage {
+    /* border: solid white; */
+    color:white;
+    text-align:center;
+    font-size:0.3em;
+    margin:auto;
+    /* margin-left:2em; */
+    
+    display:inline-block;
+}
+
+.navBar .tabList {
+    /* border: solid white; */
+    /* display: flex; */
+    /* margin:auto; */
+    /* margin-right:2em; */
+    /* justify-content:center; */
+    width:100%;
+    padding-left:3em;
+    margin: auto;
+}
+
+.tabListItem {
+    /* border: solid black; */
+    margin-right:1em;
+    color:white;
+    /* margin-right:50px; */
+    font-size:1em;
+    text-decoration:none;
+    transition: font-size 0.4s;
+}
+
+.mainPage {
+    margin-top:3em;
+    /* border: solid blue 1px; */
+}
+
+.mainPageTitle {
+    /* border:solid black 1px; */
+    color:white;
+}
+
+
+.name {
+    text-align:center;
+    font-size:1.5em;
+    color: #fb923c;
+}
+.separator {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: auto;
+    margin-top:13px;
+    width:10%;
+    padding: 0;
+}
+
+.physics {
+    margin-top:10px;
+    text-align:center;
+    font-size:2em;
+}
+
+.student {
+    text-align:center;
+    font-size:1.5em;
+}
+
+.mainPageDescription {
+    margin:auto;
+    margin-top: 1.5em;
+    width:80% ;
+    text-align:left;
+    color:white;
+    font-size:1em;
+}
+
+footer {
+  position:fixed;
+  bottom: 20px;
+  height:2em;
+  width:100%;
+}
+
+footer img {
+  margin:auto;
+  margin-right:1em;
+  max-height:100%;
+  transition: max-height 0.4s;
+}
+
+footer img:hover {
+  max-height:105%;
+}
+
+}
