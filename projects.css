@@ -201,7 +201,7 @@ body {
 }
 
 .homePage {
-  position:absolute;
+    position:absolute;
     width:2em;
     height:2em;
     background-color:white;
